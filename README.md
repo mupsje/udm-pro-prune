@@ -1,3 +1,5 @@
+Prune old data from udm unifi
+
 How to. . . . . 
 
 ssh root@192.168.10.1 (udm-pro ip)
