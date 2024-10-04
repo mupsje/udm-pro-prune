@@ -22,12 +22,20 @@ CTRL X and Y
 
 //Perform a test run. To run a "dry run" issue the following commands:
 
-```sed -i 's/dryrun=false/dryrun=true/g' mongo_prune_js.js```
-```mongo --port 27117 < mongo_prune_js.js```
-
-
+```
+sed -i 's/dryrun=false/dryrun=true/g' mongo_prune_js.js
+```
+then
+```
+mongo --port 27117 < mongo_prune_js.js
+```
 
 //Run the script. This will run the script without "dry run":
 
-```sed -i 's/dryrun=true/dryrun=false/g' mongo_prune_js.js```
-```mongo --port 27117 < mongo_prune_js.js```
+```
+sed -i 's/dryrun=true/dryrun=false/g' mongo_prune_js.js
+```
+then
+```
+mongo --port 27117 < mongo_prune_js.js
+```
