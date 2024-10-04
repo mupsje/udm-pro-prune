@@ -4,9 +4,14 @@ ssh root@192.168.10.1 (udm-pro ip)
 
 sudo -i
 
+```
+sudo apt install nano
+```
 
 //make the file
+```
 nano mongo_prune_js.js
+```
 
 // copy txt from the file mongo_prune_js.js above //
 
