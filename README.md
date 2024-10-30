@@ -1,3 +1,12 @@
+From new os
+
+deprecated out of order !!!!!!
+
+
+###################################################################################################
+
+
+
 Prune old data from udm unifi
 
 How to. . . . . 
